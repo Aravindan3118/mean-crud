@@ -1,0 +1,4 @@
+mean-app1/node_modules/
+crud-server-test/node_modules/
+mean-app1/src/environments/environment.ts
+crud-server-test/.env

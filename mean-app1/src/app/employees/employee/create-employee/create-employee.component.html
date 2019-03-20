@@ -1,0 +1,33 @@
+<form [formGroup]="commonService.regForm" (submit) = onSubmit()>
+  <mat-form-field appearance="outline">
+    <mat-label>Name</mat-label>
+    <input formControlName="name" matInput placeholder="Name">
+    <!-- <mat-icon matSuffix>sentiment_very_satisfied</mat-icon> -->
+  </mat-form-field>
+  <mat-form-field class="form-field" appearance="outline">
+    <mat-label>position</mat-label>
+    <input formControlName="position" matInput placeholder="position">
+    <!-- <mat-icon matSuffix>sentiment_very_satisfied</mat-icon> -->
+  </mat-form-field>
+  <input type="hidden" formControlName="_id">
+  <mat-form-field appearance="outline">
+    <mat-label>office</mat-label>
+    <input formControlName="office" matInput placeholder="office">
+    <!-- <mat-icon matSuffix>sentiment_very_satisfied</mat-icon> -->
+  </mat-form-field>
+  <mat-form-field class="form-field" appearance="outline">
+    <mat-label>salary</mat-label>
+    <input formControlName="salary" matInput placeholder="salary">
+    <!-- <mat-icon matSuffix>sentiment_very_satisfied</mat-icon> -->
+  </mat-form-field>
+
+  <div *ngIf="commonService.regForm.controls['_id'].value">
+    <!-- <button type="submit" class="btn btn-primary" [disabled]="commonService.regForm.invalid" #submit>update</button> -->
+    <button type="submit" [disabled]="commonService.regForm.invalid" #submit mat-raised-button>Update</button>
+  </div>
+  <div *ngIf="!commonService.regForm.controls['_id'].value">
+    <!-- <button type="submit" class="btn btn-primary" [disabled]="commonService.regForm.invalid" #submit>Create</button> -->
+    <button type="submit" [disabled]="commonService.regForm.invalid" #submit mat-raised-button>Create</button>
+  </div>
+  
+</form>
