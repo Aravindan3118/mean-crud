@@ -1,0 +1,15 @@
+{"_id":{"$oid":"5c6c152a2de110151c24647c"},"name":"Bharath","position":"jnr Developer","office":"G2","salary":60001,"__v":0}
+{"_id":{"$oid":"5c6c181d5dca4a25f417450d"},"name":"Akash","position":"jnr Developer","office":"CGVAK","salary":5500,"__v":0}
+{"_id":{"$oid":"5c6c18245dca4a25f417450e"},"name":"Sam","position":"jnr designer","office":"CGVAK","salary":45000,"__v":0}
+{"_id":{"$oid":"5c6c309a5dca4a25f417450f"},"name":"mari","position":"jnr designer","office":"CGVAK","salary":45000,"__v":0}
+{"_id":{"$oid":"5c6c309c5dca4a25f4174510"},"name":"arun","position":"jnr designer","office":"CGVAK","salary":45000,"__v":0}
+{"_id":{"$oid":"5c6c309f5dca4a25f4174511"},"name":"john","position":"jnr designer","office":"CGVAK","salary":45000,"__v":0}
+{"_id":{"$oid":"5c6c30a15dca4a25f4174512"},"name":"poobalan1","position":"jnr designer","office":"CGVAK","salary":45000,"__v":0}
+{"_id":{"$oid":"5c6c30a35dca4a25f4174513"},"name":"bala","position":"jnr designer","office":"CGVAK","salary":45000,"__v":0}
+{"_id":{"$oid":"5c6c30a65dca4a25f4174514"},"name":"kathir","position":"jnr designer","office":"CGVAK","salary":45000,"__v":0}
+{"_id":{"$oid":"5c6c30a85dca4a25f4174515"},"name":"mani","position":"jnr designer","office":"CGVAK","salary":45000,"__v":0}
+{"_id":{"$oid":"5c6c30ab5dca4a25f4174516"},"name":"dharani","position":"jnr designer","office":"CGVAK","salary":45000,"__v":0}
+{"_id":{"$oid":"5c6c30ad5dca4a25f4174517"},"name":"mohan","position":"jnr designer","office":"CGVAK","salary":45000,"__v":0}
+{"_id":{"$oid":"5c6c30b25dca4a25f4174518"},"name":"anto","position":"jnr designer","office":"CGVAK","salary":45000,"__v":0}
+{"_id":{"$oid":"5c6c30b65dca4a25f4174519"},"name":"ussain","position":"jnr designer","office":"CGVAK","salary":45000,"__v":0}
+{"_id":{"$oid":"5c9214cca1423708cce8a95e"},"name":"test new","position":"new test","office":"new ofc ","salary":12121,"__v":0}
